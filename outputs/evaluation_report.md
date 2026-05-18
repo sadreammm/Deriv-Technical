@@ -2,45 +2,43 @@
 
 ## Summary
 - Total tickets processed: 5
-- Auto-send candidates count: 2
-- Human review required count: 3
+- Auto-send candidates count: 3
+- Human review required count: 2
 - Overall deterministic pass rate: 5/5 tickets passed all checks
 - Average quality rating: 5.0
 
 ## Auto-send candidates
 
+**TKT-001** (withdrawal_delay)
+This ticket was routed to auto-send because it achieved a quality rating of 5/5 with low risk, and successfully passed all deterministic checks.
+*Excerpt:* "Subject: Re: Withdrawal Request Delay - Ticket ID: TKT-001  Dear Customer,  Thank you for reaching out regarding Ticket ID: TKT-001..."
+
+
 **TKT-003** (account_verification)
 This ticket was routed to auto-send because it achieved a quality rating of 5/5 with low risk, and successfully passed all deterministic checks.
-*Excerpt:* "Subject: Re: Your Account Verification Status - TKT-003  Hi there,  Thank you for reaching out to us regarding your account verification status..."
+*Excerpt:* "Hi there,  Thank you for reaching out to us regarding your account verification status for TKT-003..."
 
 
 **TKT-004** (platform_error)
 This ticket was routed to auto-send because it achieved a quality rating of 5/5 with low risk, and successfully passed all deterministic checks.
-*Excerpt:* "Dear Valued Trader,  Thank you for reaching out regarding the issues you're experiencing when trying to place trades, Ticket ID TKT-004..."
+*Excerpt:* "Subject: Re: TKT-004 - Error when placing trades  Dear Valued Customer,  Thank you for reaching out to us..."
 
 
 
 ## Human review required
 
-**TKT-001** (withdrawal_delay)
-Primary reason for routing: **operator_override**.
-Failed checks: None.
-Quality rating: 5/5 | Risk level: low.
-Suggested fix: No significant fixes are needed as the draft is comprehensive, empathetic, and fully compliant. It serves as an exemplary response for a frustrated customer.
-
-
 **TKT-002** (bonus_dispute)
 Primary reason for routing: **angry_tone**.
 Failed checks: None.
 Quality rating: 5/5 | Risk level: low.
-Suggested fix: No significant fixes are required. The draft is exceptionally well-crafted, empathetic, and fully compliant with all policies. It proactively addresses the customer's concerns and outlines clear next steps effectively.
+Suggested fix: None. The response is highly effective and completely policy-compliant. It skillfully addresses the customer's anger and concern while setting clear, realistic expectations for resolution.
 
 
 **TKT-005** (withdrawal_delay)
 Primary reason for routing: **angry_tone**.
 Failed checks: None.
 Quality rating: 5/5 | Risk level: low.
-Suggested fix: No significant fixes needed. The response is highly effective and addresses all aspects of the customer's complaint and concerns proactively and empathetically.
+Suggested fix: This is an exceptionally strong reply; no significant fixes are needed. It perfectly balances empathy, detailed action, and policy compliance, effectively addressing the customer's urgent concerns.
 
 
 
@@ -53,4 +51,4 @@ All tickets successfully passed the deterministic policy checks. Tickets with a 
 
 - Develop a specialized prompt workflow for 'angry' tone tickets, as they currently represent the majority of human review bottlenecks.
 
-- Overall qualitative reviews were excellent. We suggest experimenting with `--variants` to see if a cheaper/faster model can maintain this quality.
+- Review the draft logic for TKT-002. QA Suggestion: None. The response is highly effective and completely policy-compliant. It skillfully addresses the customer's anger and concern while setting clear, realistic expectations for resolution.

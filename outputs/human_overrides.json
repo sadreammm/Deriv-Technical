@@ -1,9 +1,4 @@
 {
-  "overrides": [
-    {
-      "ticket_id": "TKT-001",
-      "override_route": "human_review"
-    }
-  ],
-  "operator_skipped": false
+  "overrides": [],
+  "operator_skipped": true
 }
