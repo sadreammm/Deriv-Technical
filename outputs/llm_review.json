@@ -1,0 +1,37 @@
+[
+  {
+    "ticket_id": "TKT-001",
+    "quality_rating": 5,
+    "policy_risk": "low",
+    "review_summary": "This response is excellent. It deeply empathizes with the customer's frustration, clearly acknowledges the delay, confirms account specifics ($500 withdrawal, 5 days), and immediately escalates the issue to the finance department. It sets clear expectations for the next steps and follow-up without making any forbidden claims. All required sections are present.",
+    "suggested_fix": "No significant fixes are needed as the draft is comprehensive, empathetic, and fully compliant. It serves as an exemplary response for a frustrated customer."
+  },
+  {
+    "ticket_id": "TKT-002",
+    "quality_rating": 5,
+    "policy_risk": "low",
+    "review_summary": "The reply is excellent, demonstrating strong empathy and a deep understanding of the customer's anger and VIP status. It accurately acknowledges the bonus discrepancy and provides clear, actionable steps for a thorough investigation. The agent reassures the customer of a fair resolution without making premature promises, while strictly adhering to all policy constraints. The tone is professional, personalized, and effectively de-escalates the situation, making it a stellar example of customer support.",
+    "suggested_fix": "No significant fixes are required. The draft is exceptionally well-crafted, empathetic, and fully compliant with all policies. It proactively addresses the customer's concerns and outlines clear next steps effectively."
+  },
+  {
+    "ticket_id": "TKT-003",
+    "quality_rating": 5,
+    "policy_risk": "low",
+    "review_summary": "The draft reply is excellent. It fully addresses the customer's concern by confirming the 'pending' status and explaining the review process. It is empathetic, clear, and manages expectations effectively without using any forbidden claims. All required sections (greeting, acknowledgment, resolution_steps, closing) are present and well-articulated.",
+    "suggested_fix": "No significant fixes are needed. The reply is comprehensive, empathetic, and fully compliant with all policy constraints. It provides a clear update and sets appropriate expectations for the customer."
+  },
+  {
+    "ticket_id": "TKT-004",
+    "quality_rating": 5,
+    "policy_risk": "low",
+    "review_summary": "This draft reply is excellent, demonstrating high empathy and personalization by acknowledging the customer's premium status and the urgency of trading. It effectively acknowledges the issue, provides clear, actionable troubleshooting steps, and requests specific follow-up information crucial for investigation. Furthermore, the proactive flagging to the technical team is a strong point. The tone is professional and reassuring, fully adhering to policy constraints.",
+    "suggested_fix": "The reply is exceptionally well-structured, empathetic, and comprehensive. No significant fixes or improvements are needed; it serves as a strong example for customer support."
+  },
+  {
+    "ticket_id": "TKT-005",
+    "quality_rating": 5,
+    "policy_risk": "low",
+    "review_summary": "The draft reply is excellent. It demonstrates high empathy, directly addresses the customer's anger and lack of communication, and takes immediate, concrete steps by escalating the withdrawal. It clearly communicates the current status and provides a reasonable timeline for an update, reassuring the customer about the security of their funds while remaining fully policy-compliant. It effectively de-escalates a high-tension situation.",
+    "suggested_fix": "No significant fixes needed. The response is highly effective and addresses all aspects of the customer's complaint and concerns proactively and empathetically."
+  }
+]

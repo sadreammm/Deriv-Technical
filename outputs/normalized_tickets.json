@@ -1,0 +1,82 @@
+[
+  {
+    "ticket_id": "TKT-001",
+    "customer_tone": "frustrated",
+    "issue_type": "withdrawal_delay",
+    "customer_message": "I submitted a withdrawal request 5 days ago and it still hasn't been processed. This is unacceptable — I need my money!",
+    "account_context": {
+      "account_type": "standard",
+      "account_age_days": 340,
+      "balance": 1250.0,
+      "recent_transactions": [
+        "withdrawal_pending_500"
+      ],
+      "kyc_status": "verified"
+    },
+    "loaded_at": "2026-05-18T19:17:53.966500+00:00"
+  },
+  {
+    "ticket_id": "TKT-002",
+    "customer_tone": "angry",
+    "issue_type": "bonus_dispute",
+    "customer_message": "You promised me a 100% deposit bonus but I only received 50%. This is a scam! I want the rest of my bonus NOW or I'm going to the regulator.",
+    "account_context": {
+      "account_type": "vip",
+      "account_age_days": 720,
+      "balance": 5300.0,
+      "recent_transactions": [
+        "deposit_1000",
+        "bonus_credit_500"
+      ],
+      "kyc_status": "verified"
+    },
+    "loaded_at": "2026-05-18T19:17:53.966500+00:00"
+  },
+  {
+    "ticket_id": "TKT-003",
+    "customer_tone": "neutral",
+    "issue_type": "account_verification",
+    "customer_message": "Hi, I uploaded my ID documents two weeks ago but my account still shows as unverified. Can you check the status please?",
+    "account_context": {
+      "account_type": "standard",
+      "account_age_days": 14,
+      "balance": 0,
+      "recent_transactions": [],
+      "kyc_status": "pending"
+    },
+    "loaded_at": "2026-05-18T19:17:53.966500+00:00"
+  },
+  {
+    "ticket_id": "TKT-004",
+    "customer_tone": "polite",
+    "issue_type": "platform_error",
+    "customer_message": "I keep getting an error message when I try to place a trade. The screen freezes and I lose my position. This has happened three times today.",
+    "account_context": {
+      "account_type": "premium",
+      "account_age_days": 1100,
+      "balance": 12400.0,
+      "recent_transactions": [
+        "trade_open_EURUSD",
+        "trade_close_GBPJPY"
+      ],
+      "kyc_status": "verified"
+    },
+    "loaded_at": "2026-05-18T19:17:53.966500+00:00"
+  },
+  {
+    "ticket_id": "TKT-005",
+    "customer_tone": "angry",
+    "issue_type": "withdrawal_delay",
+    "customer_message": "WHERE IS MY MONEY?? I requested a withdrawal over a week ago and nobody is responding to my emails. If I don't get my funds in 24 hours I will report you to the authorities.",
+    "account_context": {
+      "account_type": "standard",
+      "account_age_days": 90,
+      "balance": 300.0,
+      "recent_transactions": [
+        "withdrawal_pending_300"
+      ],
+      "kyc_status": "verified"
+    },
+    "loaded_at": "2026-05-18T19:17:53.966500+00:00"
+  }
+]

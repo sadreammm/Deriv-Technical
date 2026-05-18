@@ -1,0 +1,58 @@
+{
+  "allowed_issue_types": [
+    "withdrawal_delay",
+    "bonus_dispute",
+    "account_verification",
+    "platform_error",
+    "deposit_issue",
+    "general_inquiry"
+  ],
+  "required_reply_sections": [
+    "greeting",
+    "acknowledgment",
+    "resolution_steps",
+    "closing"
+  ],
+  "forbidden_claims": {
+    "password_request": [
+      "send me your password",
+      "share your password",
+      "provide your password",
+      "tell me your password"
+    ],
+    "guaranteed_timeline": [
+      "guaranteed within",
+      "we guarantee",
+      "definitely by",
+      "100% within"
+    ],
+    "funds_released": [
+      "funds have been released",
+      "money has been sent",
+      "withdrawal has been processed"
+    ],
+    "blaming_language": [
+      "this is your fault",
+      "you should have",
+      "you failed to",
+      "that's not our problem",
+      "we don't care"
+    ]
+  },
+  "routing_rules": {
+    "auto_send_threshold": 5,
+    "angry_tone_escalate": true,
+    "bonus_dispute_escalate": true,
+    "risk_quality_gate": {
+      "risk_levels": ["high", "medium"],
+      "max_quality_rating": 2
+    }
+  },
+  "quality_rubric": {
+    "1": "Response is off-topic, harmful, or violates policy",
+    "2": "Response addresses the issue but with significant errors or missing sections",
+    "3": "Response is adequate but generic, lacking personalisation or empathy",
+    "4": "Response is clear, empathetic, policy-compliant, and mostly complete",
+    "5": "Response is excellent: personalised, empathetic, fully policy-compliant, actionable"
+  }
+}
